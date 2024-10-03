@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços de Segurança e Drones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: url('file:///C:/Users/Thais/Downloads/Piloto%20Inteligente%20(17).png') no-repeat center center/cover;
+            height: 80vh; /* Definindo a altura do cabeçalho */
+        }
+        nav {
+            margin: 0;
+            padding: 10px 0;
+            text-align: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .service img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://media.discordapp.net/attachments/1205197491751092327/1289540202397962353/pilot_outlook_High-quality_aerial_shot_of_a_DJI_Mavic_3_Enterpr_fca6d72b-ffd3-479f-b1a8-5c430729aef4.png?ex=66fd25e6&is=66fbd466&hm=c37a7af8ff8660adf0c86faa1d853440e10d33c525059d66831b509d0108ed51&=&format=webp&quality=lossless&width=1142&height=1142');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Novo estilo para a cor branca no texto "Nossos Serviços" */
+        #services h2 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Cabeçalho com a imagem de fundo, sem texto -->
+<header></header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Serviços</a>
+    <a href="#about">Sobre</a>
+    <a href="#contact">Contato</a>
+</nav>
+
+<section id="services">
+    <h2>Nossos Serviços</h2>
+    <div class="services">
+        <div class="service">
+            <img src="https://media.discordapp.net/attachments/1205197491751092327/1289540202397962353/pilot_outlook_High-quality_aerial_shot_of_a_DJI_Mavic_3_Enterpr_fca6d72b-ffd3-479f-b1a8-5c430729aef4.png?ex=66fd25e6&is=66fbd466&hm=c37a7af8ff8660adf0c86faa1d853440e10d33c525059d66831b509d0108ed51&=&format=webp&quality=lossless&width=1142&height=1142" alt="Monitoramento por Drones">
+            <h3>Monitoramento por Drones</h3>
+            <p>Utilizamos drones de última geração para monitorar grandes áreas com eficiência e segurança, oferecendo cobertura total do perímetro.</p>
+        </div>
+        <div class="service">
+            <img src="https://media.discordapp.net/attachments/1205197491751092327/1291154922112421910/pilot_outlook_High-quality_ultrarealistic_aerial_shot_of_a_Dron_73818226-cb48-423b-841a-b291ac52d604.png?ex=66ff1139&is=66fdbfb9&hm=a4246174fa4233d0e24b9e7bdcadde58a2193ed946459582c93b128f3616cd4e&=&format=webp&quality=lossless&width=1142&height=1142" alt="Segurança Patrimonial">
+            <h3>Segurança Patrimonial</h3>
+            <p>Nossas soluções de segurança patrimonial protegem empresas e condomínios com vigilância 24 horas, garantindo tranquilidade e confiança.</p>
+        </div>
+        <div class="service">
+            <img src="https://media.discordapp.net/attachments/1205197491751092327/1291150300086014014/pilot_outlook_A_highly_realistic_scene_of_a_drone_performing_a__b22f2747-eef6-4195-8cf5-169e3dd22513.png?ex=66ff0ceb&is=66fdbb6b&hm=24a79ff0fd55e0a748ebd0dcbb04b1fcc5f4fd06d58432b6f8e756ff83215995&=&format=webp&quality=lossless&width=1142&height=1142" alt="Topografia - Inspeções Técnicas">
+            <h3>Topografia - Inspeções Técnicas</h3>
+            <p>Realizamos inspeções detalhadas de estruturas e terrenos, utilizando drones equipados com câmeras de alta resolução e tecnologia de precisão.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about" style="display: flex; align-items: center; padding: 20px;">
+    <img src="file:///C:/Users/Thais/OneDrive/Piloto%20Inteligente/Design%20sem%20nome%20-%202024-10-02T105852.951.png" alt="Imagem de João Vitor" style="width: 200px; height: auto; margin-right: 20px; border-radius: 10px;">
+    <div style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px;">
+        <h2>Sobre Mim</h2>
+        <p>Prazer, João Vitor. Tenho formação em Ciências Aeronáuticas e sou especializado em drones. Eu trabalhei para grandes empresas do setor de eVTOL e projetos de drones como a Airbus. Minha paixão pela aviação me levou a explorar novas formas de tecnologia para garantir a segurança e eficiência no controle de grandes áreas. Com experiência e formação no setor, busco sempre oferecer soluções inovadoras e personalizadas para cada cliente.</p>
+    </div>
+</section>
+
+<footer id="contact">
+    <p>Endereço: Rua Devanir Nunes Teodoro, 58. Nova Caieiras. Caieiras, São Paulo</p>
+    <p><a href="https://www.google.com/maps?q=Rua+Devanir+Nunes+Teodoro,+58,+Nova+Caieiras,+Caieiras,+São+Paulo" target="_blank">Abrir no Google Maps</a></p>
+    <p>Entre em contato: (11) 947911155 (WhatsApp) | Email: pilotointeligentecontato@gmail.com</p>
+    <p>&copy; 2024 Piloto Inteligente. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
